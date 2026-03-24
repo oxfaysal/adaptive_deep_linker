@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'dart:io';
 
 /// The entry point for the setup CLI tool.
@@ -24,7 +26,7 @@ void main(List<String> args) {
 ///
 /// It injects an intent-filter with [domain] and [scheme] into the primary activity.
 void _setupAndroid(String domain, String scheme) {
-  final String manifestPath = 'android/app/src/main/AndroidManifest.xml';
+  const String manifestPath = 'android/app/src/main/AndroidManifest.xml';
   final File file = File(manifestPath);
 
   if (!file.existsSync()) {
