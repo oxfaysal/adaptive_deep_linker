@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="assets/banner.png" alt="Adaptive Deep Linker Banner" width="50%">
-  <h1>🔗 Adaptive Deep Linker</h1>
+  <h2>🔗 Adaptive Deep Linker</h2>
 
   <a href="https://pub.dev/packages/adaptive_deep_linker" style="display: inline-block;">
     <img src="https://img.shields.io/pub/v/adaptive_deep_linker?color=blue" alt="Pub Version">
