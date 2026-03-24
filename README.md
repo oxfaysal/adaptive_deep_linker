@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="assets/banner.png" alt="Adaptive Deep Linker Banner" width="50%">
   <h1>🔗 Adaptive Deep Linker</h1>
 
   <a href="https://pub.dev/packages/adaptive_deep_linker" style="display: inline-block;">
@@ -7,14 +8,14 @@
   <a href="https://opensource.org/licenses/MIT" style="display: inline-block;">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
   </a>
-  <a href="https://github.com/oxfaysal" style="display: inline-block;">
+  <a href="https://oxfaysal.github.io" style="display: inline-block;">
     <img src="https://img.shields.io/badge/Maintained%20by-LoomixDev-blueviolet" alt="LoomixDev">
   </a>
 
-  <br><br>
+  <br>
   
   <p style="max-width: 600px;">
-    <b>A lightweight, highly adaptive deep linking solution for Flutter. <code>adaptive_deep_linker</code> simplifies URL parsing, dynamic parameter extraction, and automates native configurations for Android and iOS with a single CLI command.</b>
+    <p>A lightweight, highly adaptive deep linking solution for Flutter. <code>adaptive_deep_linker</code> simplifies URL parsing, dynamic parameter extraction, and automates native configurations for Android and iOS with a single CLI command.</p>
   </p>
 </div>
 
