@@ -1,7 +1,6 @@
-## 🔗 Adaptive Deep Linker
+# 🔗 Adaptive Deep Linker
 
 [![Pub Version](https://img.shields.io/pub/v/adaptive_deep_linker?color=blue)](https://pub.dev/packages/adaptive_deep_linker)
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A lightweight, highly adaptive deep linking solution for Flutter. `adaptive_deep_linker` simplifies URL parsing, dynamic parameter extraction, and automates native configurations for Android and iOS with a single CLI command.
