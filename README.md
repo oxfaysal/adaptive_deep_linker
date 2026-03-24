@@ -43,7 +43,7 @@ flutter pub get
 Stop manually editing XML and Plist files. Configure your `Android and iOS` projects with one command:
 
 ```bash
-    dart run adaptive_deep_linker:setup yourdomain.com
+dart run adaptive_deep_linker:setup yourdomain.com
 ```
 
 * **Android:** Automatically adds the required `<intent-filter>` to your manifest.
