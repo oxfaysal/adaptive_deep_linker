@@ -18,7 +18,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    
+
     // ১. রাউটগুলো কনফিগার করা
     linker = AdaptiveDeepLinker(
       routes: [
@@ -32,7 +32,8 @@ class _MyAppState extends State<MyApp> {
         ),
         AdaptiveRoute(
           path: '/profile/:username',
-          builder: (params) => ProfileScreen(user: params['username'] ?? 'Guest'),
+          builder: (params) =>
+              ProfileScreen(user: params['username'] ?? 'Guest'),
         ),
       ],
       fallbackPage: const NotFoundScreen(),
@@ -71,7 +72,8 @@ class HomeScreen extends StatelessWidget {
               child: const Text('Go to Product 505'),
             ),
             ElevatedButton(
-              onPressed: () => Navigator.pushNamed(context, '/profile/oxfaysal'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/profile/oxfaysal'),
               child: const Text('View @oxfaysal Profile'),
             ),
           ],
@@ -89,7 +91,9 @@ class ProductDetailsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Product Details')),
-      body: Center(child: Text('Viewing Product ID: $id', style: const TextStyle(fontSize: 24))),
+      body: Center(
+          child: Text('Viewing Product ID: $id',
+              style: const TextStyle(fontSize: 24))),
     );
   }
 }
@@ -102,7 +106,8 @@ class ProfileScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('User Profile')),
-      body: Center(child: Text('Welcome, $user!', style: const TextStyle(fontSize: 24))),
+      body: Center(
+          child: Text('Welcome, $user!', style: const TextStyle(fontSize: 24))),
     );
   }
 }

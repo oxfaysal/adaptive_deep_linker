@@ -1,3 +1,11 @@
+/// A lightweight and highly adaptive deep linking solution for Flutter.
+///
+/// This library provides [AdaptiveDeepLinker] and [AdaptiveRoute] to simplify
+/// URL parsing, dynamic parameter extraction, and automated native
+/// configurations for Android and iOS.
+///
+/// Developed by LoomixDev.
+
 library adaptive_deep_linker;
 
 import 'package:flutter/material.dart';
@@ -7,7 +15,7 @@ import 'src/models/route_handler.dart';
 export 'src/models/route_handler.dart';
 
 /// The core class for managing deep links in a Flutter application.
-/// 
+///
 /// [AdaptiveDeepLinker] intercepts route settings and matches them against
 /// a list of predefined [AdaptiveRoute] configurations.
 class AdaptiveDeepLinker {
@@ -18,7 +26,7 @@ class AdaptiveDeepLinker {
   final Widget? fallbackPage;
 
   /// Creates an [AdaptiveDeepLinker] instance.
-  /// 
+  ///
   /// Requires a list of [routes] and an optional [fallbackPage].
   const AdaptiveDeepLinker({
     required this.routes,
@@ -26,7 +34,7 @@ class AdaptiveDeepLinker {
   });
 
   /// A handler to be used in [MaterialApp.onGenerateRoute].
-  /// 
+  ///
   /// This method iterates through the [routes] and returns a [MaterialPageRoute]
   /// if a match is found using [LinkParser].
   Route<dynamic>? handleRoute(RouteSettings settings) {
@@ -34,7 +42,7 @@ class AdaptiveDeepLinker {
 
     for (final AdaptiveRoute route in routes) {
       final Map<String, String>? params = LinkParser.parse(route.path, path);
-      
+
       if (params != null) {
         return MaterialPageRoute<dynamic>(
           settings: settings,
@@ -50,13 +58,13 @@ class AdaptiveDeepLinker {
         builder: (BuildContext context) => fallbackPage!,
       );
     }
-    
+
     return null;
   }
 
   /// Navigates to a specific [url] using the existing navigator.
-  /// 
-  /// This is useful for handling external links or manual navigation 
+  ///
+  /// This is useful for handling external links or manual navigation
   /// via string URLs.
   static void navigateTo(BuildContext context, String url) {
     try {

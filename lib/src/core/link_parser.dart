@@ -38,7 +38,7 @@ class LinkParser {
       // Return null if regex compilation fails or other errors occur
       return null;
     }
-    
+
     return null;
   }
 }

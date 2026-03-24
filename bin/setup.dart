@@ -66,7 +66,7 @@ void _setupAndroid(String domain, String scheme) {
 ///
 /// Enables [FlutterDeepLinkingEnabled] and sets up [CFBundleURLTypes].
 void _setupIOS(String domain) {
-  final String plistPath = 'ios/Runner/Info.plist';
+  const String plistPath = 'ios/Runner/Info.plist';
   final File file = File(plistPath);
 
   if (!file.existsSync()) {
