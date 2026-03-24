@@ -1,5 +1,23 @@
+name: example
+description: Demonstrates how to use the adaptive_deep_linker package.
+publish_to: 'none' 
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
+
 dependencies:
   flutter:
     sdk: flutter
+  
+  # আপনার লোকাল প্যাকেজটি লিঙ্ক করা হচ্ছে
   adaptive_deep_linker:
     path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
