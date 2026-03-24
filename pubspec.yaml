@@ -1,6 +1,6 @@
 name: adaptive_deep_linker
 description: A lightweight, highly adaptive deep linking solution for Flutter. Simplifies URL parsing and automated native configuration for Android and iOS.
-version: 0.0.1
+version: 1.0.0
 homepage: https://github.com/oxfaysal/adaptive_deep_linker 
 repository: https://github.com/oxfaysal/adaptive_deep_linker
 issue_tracker: https://github.com/oxfaysal/adaptive_deep_linker/issues
