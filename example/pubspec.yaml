@@ -1,0 +1,5 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  adaptive_deep_linker:
+    path: ../
