@@ -1,19 +1,24 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/oxfaysal/adaptive_deep_linker/main/assets/logo.png" alt="Logo" width="100"> <h1 align="center">🔗 Adaptive Deep Linker</h1>
-  
-  <a href="https://pub.dev/packages/adaptive_deep_linker">
+<div align="center">
+  <h1>🔗 Adaptive Deep Linker</h1>
+
+  <a href="https://pub.dev/packages/adaptive_deep_linker" style="display: inline-block;">
     <img src="https://img.shields.io/pub/v/adaptive_deep_linker?color=blue" alt="Pub Version">
   </a>
-  <a href="https://opensource.org/licenses/MIT">
+  <a href="https://opensource.org/licenses/MIT" style="display: inline-block;">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
   </a>
-  <a href="https://github.com/oxfaysal">
+  <a href="https://github.com/oxfaysal" style="display: inline-block;">
     <img src="https://img.shields.io/badge/Maintained%20by-LoomixDev-blueviolet" alt="LoomixDev">
   </a>
 
   <br><br>
-  <b>A lightweight, highly adaptive deep linking solution for Flutter. `adaptive_deep_linker` simplifies URL parsing, dynamic parameter extraction, and automates native configurations for Android and iOS with a single CLI command.</b>
-</p>
+  
+  <p style="max-width: 600px;">
+    <b>A lightweight, highly adaptive deep linking solution for Flutter. <code>adaptive_deep_linker</code> simplifies URL parsing, dynamic parameter extraction, and automates native configurations for Android and iOS with a single CLI command.</b>
+  </p>
+</div>
+
+<br>
 
 
 ---
